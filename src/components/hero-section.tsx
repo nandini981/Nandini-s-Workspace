@@ -40,7 +40,7 @@ export default function HeroSection({ onProgress, onLoaded }: HeroSectionProps) 
         }
       };
       img.onload = onProcessed;
-      img.onerror = onProcessed;
+      img.onerror = onProcessed; // Handle failed loads
     });
   }, [onProgress, onLoaded]);
 
@@ -78,12 +78,12 @@ export default function HeroSection({ onProgress, onLoaded }: HeroSectionProps) 
           className="object-cover"
         />
         <div className="absolute inset-0 bg-black/40" />
-        <div className="relative z-10 flex h-full flex-col justify-between p-8 md:p-12 lg:p-16">
-          <div className="flex flex-1 justify-between gap-8">
+        <div className="relative z-10 flex h-full flex-col justify-end gap-32 p-8 md:p-12 lg:p-16">
+          <div className="flex justify-between gap-8">
             {/* Left Block */}
             <div className="flex flex-col justify-start text-left">
               <p className="font-headline text-lg text-primary">{config.introLine}</p>
-              <h1 className="font-headline text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-none whitespace-pre-wrap">
+              <h1 className="font-headline text-5xl font-bold tracking-tighter leading-none whitespace-pre-wrap">
                 {config.hero.title}
               </h1>
               <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-4 text-sm">
