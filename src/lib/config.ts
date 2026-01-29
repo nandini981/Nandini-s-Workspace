@@ -1,133 +1,155 @@
 export const config = {
-  communityName: "Nandini's Space",
-  communityNameSuffix: "",
-  introLine: "Hey, welcome to",
+  communityName: 'Nandini',
+  communityNameSuffix: 'Digital Creator & Developer',
+  introLine: '',
   header: {
     links: [
-      { title: "About", href: "#about" },
-      { title: "Courses", href: "#learning-paths" },
-      { title: "Projects", href: "#projects" },
-      { title: "Testimonials", href: "#testimonials" },
-      { title: "FAQ", href: "#faq" },
+      { title: 'About', href: '#about' },
+      { title: 'Services', href: '#services' },
+      { title: 'Work', href: '#projects' },
+      { title: 'Testimonials', href: '#testimonials' },
+      { title: 'FAQ', href: '#faq' },
     ],
   },
   hero: {
-    title: "Nandini's\nSpace",
-    subheadline: "Build Stunning Websites & AI Apps Faster With AI.",
-    description: "Learn how to combine design, automation, and AI to create modern, scroll-animated websites, internal tools, and full AI-driven products. No coding experience required.",
+    title: 'Digital Experiences,\nBuilt for Impact.',
+    subheadline:
+      'I design and build modern websites, cinematic web experiences, and AI-powered applications.',
+    description:
+      'I partner with startups, founders, and teams to turn ambitious ideas into elegant, functional, and user-centric digital solutions.',
     skills: [
-      { id: "#01", label: "AI Website Building" },
-      { id: "#02", label: "Animated Parallax" },
-      { id: "#03", label: "AI-Assisted Web Apps" },
-      { id: "#04", label: "Internal Tools Automation" },
+      { id: '#01', label: 'Modern Websites' },
+      { id: '#02', label: 'Cinematic Animation' },
+      { id: '#03', label: 'AI Applications' },
+      { id: '#04', label: 'Process Automation' },
     ],
   },
   about: {
-    title: "Shaping the Future of AI-Powered Creation",
-    description: "Nandini's Space is a hub where beginners, hobbyists, and professionals learn how to use AI tools to create stunning websites, animated web experiences, internal tools, and full web apps. Our mission is to democratize creation and empower anyone to bring their ideas to life, regardless of their technical background.",
+    title: 'A Builder at the Intersection of Design & Code',
+    description:
+      "I'm a self-driven creator and developer with a passion for building real-world projects. My work is at the crossroads of design, frontend development, and artificial intelligence. I thrive on turning complex problems into elegant, functional, and beautiful digital solutions.",
     learnItems: [
-      "Mastering no-code and low-code platforms.",
-      "Integrating AI for content, design, and logic.",
-      "Building cinematic, scroll-based animations.",
-      "Automating workflows and internal processes.",
+      'Bridging the gap between ambitious ideas and tangible products.',
+      'Leveraging AI to create smarter and more efficient web applications.',
+      'Crafting immersive, story-driven web experiences with motion.',
+      'Developing custom tools to streamline and automate business operations.',
     ],
   },
-  learningPaths: {
-    title: "Featured Learning Paths",
+  services: {
+    title: 'What I Do',
     paths: [
       {
-        id: "learning-path-animated-websites",
-        title: "Animated Websites",
-        description: "Learn to build visually stunning, scroll-animated websites that captivate your audience.",
+        id: 'service-animated-websites',
+        title: 'Cinematic & Animated Websites',
+        description:
+          'I create immersive, scroll-animated websites that tell a story and captivate your audience, turning visitors into customers.',
       },
       {
-        id: "learning-path-ai-builders",
-        title: "AI Website Builders",
-        description: "Leverage the power of AI to design, build, and launch websites in record time.",
+        id: 'service-ai-apps',
+        title: 'AI-Powered Web Applications',
+        description:
+          'From intelligent chatbots to data-driven tools, I build custom AI applications that solve real problems and create new business opportunities.',
       },
       {
-        id: "learning-path-internal-tools",
-        title: "Internal AI Tools",
-        description: "Automate your business processes by building powerful internal tools with AI.",
+        id: 'service-internal-tools',
+        title: 'Internal Tools & Automation',
+        description:
+          'I develop custom internal tools and automate workflows to help your team work smarter, reduce manual effort, and focus on what matters most.',
       },
       {
-        id: "learning-path-ai-apps",
-        title: "AI App Development",
-        description: "Go from idea to full-fledged AI-powered application without writing a line of code.",
-      },
-      {
-        id: "learning-path-vibecoding",
-        title: "Vibecoding for Hobbyists",
-        description: "Explore creative coding and build fun, interactive web experiences for personal projects.",
+        id: 'service-modern-websites',
+        title: 'Modern Web Development',
+        description:
+          'I build responsive, high-performance websites with a clean, modern aesthetic that provides a seamless user experience across all devices.',
       },
     ],
   },
   projects: {
-    title: "Community Projects",
+    title: 'Selected Work',
     items: [
-      { id: "project-example-1", hint: "futuristic website" },
-      { id: "project-example-2", hint: "motion graphics" },
-      { id: "project-example-3", hint: "mobile app" },
+      {
+        id: 'project-example-1',
+        title: 'Insight AI',
+        category: 'AI Web Application',
+        hint: 'futuristic website',
+      },
+      {
+        id: 'project-example-2',
+        title: 'Stellar Motion',
+        category: 'Cinematic Website',
+        hint: 'motion graphics',
+      },
+      {
+        id: 'project-example-3',
+        title: 'Automate OS',
+        category: 'Internal Tool',
+        hint: 'mobile app',
+      },
     ],
   },
   testimonials: {
-    title: "What Our Members Say",
+    title: 'What People Are Saying',
     items: [
       {
-        id: "testimonial-1",
-        quote: "Nandini's Space transformed my side hustle. I can now build professional-grade web apps for clients without a single line of code. Absolutely game-changing!",
-        name: "Jasmine K.",
-        role: "Founder",
+        id: 'testimonial-1',
+        quote:
+          'Working with Nandini was a breath of fresh air. She has a rare ability to grasp complex ideas and translate them into a clear, functional, and beautiful product. Her execution is flawless.',
+        name: 'Jasmine K.',
+        role: 'Startup Founder',
       },
       {
-        id: "testimonial-2",
-        quote: "As a designer, I always felt limited by my technical skills. This community opened my eyes to the power of AI tools. I'm building things I never thought possible.",
-        name: "Alex R.",
-        role: "Designer",
+        id: 'testimonial-2',
+        quote:
+          "Nandini's technical skill and design sense are top-notch. She was a key partner in bringing our vision to life, and her collaborative spirit made the entire process a pleasure.",
+        name: 'Alex R.',
+        role: 'Lead Designer',
       },
       {
-        id: "testimonial-3",
-        quote: "I joined as a complete beginner. The learning paths are incredibly clear and the community is so supportive. It's the perfect place to start your AI journey.",
-        name: "Ben S.",
-        role: "Hobbyist",
+        id: 'testimonial-3',
+        quote:
+          'Nandini is incredibly reliable and consistently delivers high-quality work. She is a sharp problem-solver who approaches every challenge with a positive, can-do attitude.',
+        name: 'Ben S.',
+        role: 'Project Collaborator',
       },
     ],
   },
   faq: {
-    title: "Frequently Asked Questions",
+    title: 'Working With Me',
     items: [
       {
-        question: "Do I need coding skills?",
-        answer: "No! Our entire curriculum is built around no-code and low-code tools. We teach you how to build powerful applications and websites visually. It's a perfect starting point for beginners.",
+        question: 'What kind of clients do you work with?',
+        answer:
+          "I partner with startups, founders, and established teams who are looking to build modern, impactful digital products. I'm particularly passionate about working with those who value design and user experience.",
       },
       {
-        question: "What tools will I learn?",
-        answer: "You'll learn a modern stack of AI-powered tools, including website builders like Framer, AI development platforms like Google AI Studio and Opal, and automation tools. We focus on tools that are powerful, popular, and have a strong community.",
+        question: 'Can you work with early-stage ideas?',
+        answer:
+          'Absolutely. I enjoy the process of bringing a concept from a rough idea to a fully-realized product. I can help you explore, prototype, and build out your vision.',
       },
       {
-        question: "What is 'vibecoding'?",
-        answer: "'Vibecoding' is our term for creative, hobbyist-driven development. It's less about traditional programming and more about using modern tools to create cool, interactive, and expressive web experiences for fun and personal projects.",
+        question: 'Do you handle both design and development?',
+        answer:
+          'Yes, my strength lies in the intersection of design and development. I can take a project from wireframing and visual design all the way through to a deployed front-end application.',
       },
       {
-        question: "Can beginners join?",
-        answer: "Absolutely! The community is designed for everyone, from complete beginners to seasoned professionals looking to incorporate AI into their workflow. Our beginner paths will guide you every step of the way.",
+        question: 'What is your project process like?',
+        answer:
+          "My process is collaborative and transparent. We start with a discovery phase to understand your goals, move to design and prototyping, and then into development, with regular check-ins to ensure we're aligned every step of the way.",
       },
     ],
   },
   cta: {
-    title: "Start Building Beautiful AI Websites Today",
-    primaryButton: "Join Nandini's Space",
-    secondaryButton: "Explore Courses",
+    title: 'Have a project in mind?',
+    primaryButton: "Let's Talk",
+    secondaryButton: 'See My Work',
   },
   footer: {
     links: [
-      { title: "About", href: "#about" },
-      { title: "Courses", href: "#learning-paths" },
-      { title: "Projects", href: "#projects" },
-      { title: "Contact", href: "#" },
-      { title: "Terms", href: "#" },
-      { title: "Privacy", href: "#" },
+      { title: 'About', href: '#about' },
+      { title: 'Services', href: '#services' },
+      { title: 'Work', href: '#projects' },
+      { title: 'Contact', href: 'mailto:nandini@example.com' },
     ],
-    copyright: `© ${new Date().getFullYear()} Nandini's Space. All rights reserved.`,
+    copyright: `© ${new Date().getFullYear()} Nandini. All rights reserved.`,
   },
 };

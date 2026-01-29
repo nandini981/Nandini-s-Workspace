@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 import LoadingScreen from '@/components/loading-screen';
 import HeroSection from '@/components/hero-section';
 import AboutSection from '@/components/about-section';
-import LearningPaths from '@/components/learning-paths';
+import ServicesSection from '@/components/learning-paths';
 import ProjectsSection from '@/components/projects-section';
 import Testimonials from '@/components/testimonials';
 import FaqSection from '@/components/faq-section';
@@ -28,7 +28,7 @@ export default function ClientPage() {
         <HeroSection onProgress={setProgress} onLoaded={handleLoaded} />
         <main>
           <AboutSection />
-          <LearningPaths />
+          <ServicesSection />
           <ProjectsSection />
           <Testimonials />
           <FaqSection />

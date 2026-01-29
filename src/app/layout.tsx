@@ -6,8 +6,8 @@ import Header from '@/components/header';
 
 
 export const metadata: Metadata = {
-  title: "Nandini's Space AI Canvas",
-  description: 'Build Stunning Websites & AI Apps Faster With AI.',
+  title: "Nandini | Digital Creator & Developer",
+  description: "I design and build modern websites, cinematic web experiences, and AI-powered applications for startups, founders, and teams.",
 };
 
 export default function RootLayout({
