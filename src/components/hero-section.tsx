@@ -83,7 +83,7 @@ export default function HeroSection({ onProgress, onLoaded }: HeroSectionProps) 
             {/* Left Block */}
             <div className="flex flex-col justify-start text-left">
               <p className="font-headline text-lg text-primary">{config.introLine}</p>
-              <h1 className="font-headline text-7xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-none whitespace-pre-wrap">
+              <h1 className="font-headline text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-none whitespace-pre-wrap">
                 {config.hero.title}
               </h1>
               <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-4 text-sm">
