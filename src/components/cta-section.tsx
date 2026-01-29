@@ -12,7 +12,7 @@ export default function CtaSection() {
         </h2>
         <div className="mt-8 flex justify-center gap-4">
           <Button size="lg" className="font-semibold" asChild>
-            <Link href="mailto:nandini@example.com">
+            <Link href="mailto:nandinisaini170@gmail.com">
               {config.cta.primaryButton}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>

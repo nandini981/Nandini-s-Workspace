@@ -148,7 +148,7 @@ export const config = {
       { title: 'About', href: '#about' },
       { title: 'Services', href: '#services' },
       { title: 'Work', href: '#projects' },
-      { title: 'Contact', href: 'mailto:nandini@example.com' },
+      { title: 'Contact', href: 'mailto:nandinisaini170@gmail.com' },
     ],
     copyright: `© ${new Date().getFullYear()} Nandini. All rights reserved.`,
   },
