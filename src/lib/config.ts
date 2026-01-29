@@ -2,6 +2,15 @@ export const config = {
   communityName: "Nandini's Space",
   communityNameSuffix: "",
   introLine: "Hey, welcome to",
+  header: {
+    links: [
+      { title: "About", href: "#about" },
+      { title: "Courses", href: "#learning-paths" },
+      { title: "Projects", href: "#projects" },
+      { title: "Testimonials", href: "#testimonials" },
+      { title: "FAQ", href: "#faq" },
+    ],
+  },
   hero: {
     title: "Nandini's\nSpace",
     subheadline: "Build Stunning Websites & AI Apps Faster With AI.",
