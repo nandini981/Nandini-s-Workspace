@@ -1,9 +1,9 @@
 export const config = {
-  communityName: "Andynocode",
-  communityNameSuffix: "Community",
-  introLine: "Hey, welcome to the",
+  communityName: "Nandini's Space",
+  communityNameSuffix: "",
+  introLine: "Hey, welcome to",
   hero: {
-    title: "Andynocode\nCommunity",
+    title: "Nandini's\nSpace",
     subheadline: "Build Stunning Websites & AI Apps Faster With AI.",
     description: "Learn how to combine design, automation, and AI to create modern, scroll-animated websites, internal tools, and full AI-driven products. No coding experience required.",
     skills: [
@@ -15,7 +15,7 @@ export const config = {
   },
   about: {
     title: "Shaping the Future of AI-Powered Creation",
-    description: "The Andynocode Community is a hub where beginners, hobbyists, and professionals learn how to use AI tools to create stunning websites, animated web experiences, internal tools, and full web apps. Our mission is to democratize creation and empower anyone to bring their ideas to life, regardless of their technical background.",
+    description: "Nandini's Space is a hub where beginners, hobbyists, and professionals learn how to use AI tools to create stunning websites, animated web experiences, internal tools, and full web apps. Our mission is to democratize creation and empower anyone to bring their ideas to life, regardless of their technical background.",
     learnItems: [
       "Mastering no-code and low-code platforms.",
       "Integrating AI for content, design, and logic.",
@@ -66,7 +66,7 @@ export const config = {
     items: [
       {
         id: "testimonial-1",
-        quote: "Andynocode transformed my side hustle. I can now build professional-grade web apps for clients without a single line of code. Absolutely game-changing!",
+        quote: "Nandini's Space transformed my side hustle. I can now build professional-grade web apps for clients without a single line of code. Absolutely game-changing!",
         name: "Jasmine K.",
         role: "Founder",
       },
@@ -107,7 +107,7 @@ export const config = {
   },
   cta: {
     title: "Start Building Beautiful AI Websites Today",
-    primaryButton: "Join Andynocode Community",
+    primaryButton: "Join Nandini's Space",
     secondaryButton: "Explore Courses",
   },
   footer: {
@@ -119,6 +119,6 @@ export const config = {
       { title: "Terms", href: "#" },
       { title: "Privacy", href: "#" },
     ],
-    copyright: `© ${new Date().getFullYear()} Andynocode. All rights reserved.`,
+    copyright: `© ${new Date().getFullYear()} Nandini's Space. All rights reserved.`,
   },
 };

@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 
 
 export const metadata: Metadata = {
-  title: 'Andynocode AI Canvas',
+  title: "Nandini's Space AI Canvas",
   description: 'Build Stunning Websites & AI Apps Faster With AI.',
 };
 
