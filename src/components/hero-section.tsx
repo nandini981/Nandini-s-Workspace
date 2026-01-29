@@ -27,18 +27,20 @@ export default function HeroSection({ onProgress, onLoaded }: HeroSectionProps) 
     const urls = Array.from({ length: TOTAL_FRAMES }, (_, i) => getFrameUrl(i));
     setImageUrls(urls);
 
-    let loadedCount = 0;
+    let processedCount = 0;
     urls.forEach((url) => {
       const img = new window.Image();
       img.src = url;
-      img.onload = () => {
-        loadedCount++;
-        const progress = (loadedCount / TOTAL_FRAMES) * 100;
+      const onProcessed = () => {
+        processedCount++;
+        const progress = (processedCount / TOTAL_FRAMES) * 100;
         onProgress(progress);
-        if (loadedCount === TOTAL_FRAMES) {
+        if (processedCount === TOTAL_FRAMES) {
           onLoaded();
         }
       };
+      img.onload = onProcessed;
+      img.onerror = onProcessed;
     });
   }, [onProgress, onLoaded]);
 
