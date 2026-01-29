@@ -40,7 +40,7 @@ export default function HeroSection({ onProgress, onLoaded }: HeroSectionProps) 
         }
       };
       img.onload = onProcessed;
-      img.onerror = onProcessed; // Handle failed loads
+      img.onerror = onProcessed;
     });
   }, [onProgress, onLoaded]);
 
@@ -79,7 +79,7 @@ export default function HeroSection({ onProgress, onLoaded }: HeroSectionProps) 
         />
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 flex h-full flex-col justify-end gap-32 p-8 md:p-12 lg:p-16">
-          <div className="flex justify-between gap-8">
+          <div className="flex justify-between items-end gap-8">
             {/* Left Block */}
             <div className="flex flex-col justify-start text-left">
               <p className="font-headline text-lg text-primary">{config.introLine}</p>
