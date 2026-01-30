@@ -18,7 +18,7 @@ export default function Testimonials() {
           {config.testimonials.items.map((testimonial) => {
             const testimonialImage = PlaceHolderImages.find(p => p.id === testimonial.id);
             return (
-              <Card key={testimonial.id} className="flex flex-col">
+              <Card key={testimonial.id} className="flex flex-col transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10">
                 <CardContent className="pt-6 flex-grow flex flex-col justify-between">
                   <p className="text-muted-foreground mb-6 italic">"{testimonial.quote}"</p>
                   <div className="flex items-center justify-between">

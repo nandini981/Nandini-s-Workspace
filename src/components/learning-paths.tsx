@@ -18,7 +18,7 @@ export default function ServicesSection() {
           {services.paths.map((service) => {
             const serviceImage = PlaceHolderImages.find(p => p.id === service.id);
             return (
-              <Card key={service.id} className="group overflow-hidden flex flex-col hover:border-primary/50 transition-colors">
+              <Card key={service.id} className="group overflow-hidden flex flex-col hover:border-primary/50 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20">
                 {serviceImage && (
                   <div className="overflow-hidden">
                     <Image

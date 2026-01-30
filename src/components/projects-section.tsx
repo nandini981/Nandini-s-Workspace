@@ -16,7 +16,7 @@ export default function ProjectsSection() {
           {config.projects.items.map((project) => {
             const projectImage = PlaceHolderImages.find(p => p.id === project.id);
             return (
-              <Card key={project.id} className="group overflow-hidden border-2 border-transparent hover:border-primary/50 transition-colors shadow-lg">
+              <Card key={project.id} className="group overflow-hidden border-2 border-transparent hover:border-primary/50 transition-all duration-300 ease-in-out shadow-lg hover:shadow-2xl hover:shadow-primary/20 hover:-translate-y-2">
                 <CardContent className="p-0 relative">
                   {projectImage && (
                     <Image
