@@ -3,6 +3,7 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { Toaster } from "@/components/ui/toaster";
 import Header from '@/components/header';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Toaster />
+        <SpeedInsights />
       </body>
     </html>
   );
